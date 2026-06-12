@@ -61,12 +61,13 @@ Testy weryfikują poprawność przeliczania walut oraz operacje zapisu/odczytu w
    dotnet test
    ```
 📂 Struktura Katalogów Repozytorium
-📂 backend/ — Kod źródłowy serwera .NET, konfiguracja DocFX, wygenerowana witryna statyczna (_site/) oraz plik definicji Dockerfile.
 
-📂 backend.Tests/ — Projekt testowy NUnit (testy integracyjne warstwy danych).
-
-📂 frontend/ — Kod źródłowy klienta React oraz konfiguracja serwera Nginx w Dockerfile.
-
-📄 docker-compose.yml — Skrypt orkiestracji i parametryzacji kontenerów.
-
-📄 Sprawozdanie_FinTrack.pdf — Akademickie sprawozdanie z realizacji zadania.
+   📂 backend/ — Kod źródłowy serwera .NET, konfiguracja DocFX, wygenerowana witryna statyczna (_site/) oraz plik definicji Dockerfile.
+   
+   📂 backend.Tests/ — Projekt testowy NUnit (testy integracyjne warstwy danych).
+   
+   📂 frontend/ — Kod źródłowy klienta React oraz konfiguracja serwera Nginx w Dockerfile.
+   
+   📄 docker-compose.yml — Skrypt orkiestracji i parametryzacji kontenerów.
+   
+   📄 Sprawozdanie_FinTrack.pdf — Akademickie sprawozdanie z realizacji zadania.
