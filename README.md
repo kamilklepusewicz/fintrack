@@ -2,7 +2,7 @@
 
 FinTrack to nowoczesna aplikacja webowa typu SPA (Single Page Application) służąca do kompleksowego zarządzania budżetem osobistym oraz portfelami wielowalutowymi. System automatycznie pobiera i przetwarza dane telemetryczne z chmury obliczeniowej **API Narodowego Banku Polskiego (NBP)**, oferując asynchroniczne przeliczanie transakcji walutowych na PLN w czasie rzeczywistym.
 
-## 🚀 Spełnione Wymagania Projektowe (Sylabus)
+## 🚀 Spełnione Wymagania Projektowe
 
 Projekt został zrealizowany w oparciu o pełną specyfikację wymagań przedmiotowych:
 * **Architektura Webowa .NET:** Dwuwarstwowy system z odseparowanym backendem (REST API) oraz nowoczesnym klientem SPA.
