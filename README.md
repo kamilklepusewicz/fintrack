@@ -1,17 +1,17 @@
 # FinTrack — System Zarządzania Finansami Osobistymi
 
-FinTrack to nowoczesna aplikacja webowa typu SPA (Single Page Application) służąca do kompleksowego zarządzania budżetem osobistym oraz portfelami wielowalutowymi. System automatycznie pobiera i przetwarza dane telemetryczne z chmury obliczeniowej **API Narodowego Banku Polskiego (NBP)**, oferując asynchroniczne przeliczanie transakcji walutowych na PLN w czasie rzeczywistym.
+FinTrack to aplikacja webowa typu SPA (Single Page Application) przeznaczona do zarządzania budżetem osobistym oraz portfelami wielowalutowymi. System integruje się z zewnętrzną chmurą obliczeniową API Narodowego Banku Polskiego (NBP), co umożliwia asynchroniczne pobieranie aktualnych kursów walut oraz przeliczanie transakcji w czasie rzeczywistym.
 
-## 🚀 Spełnione Wymagania Projektowe
+## 🚀 Zrealizowane Wymagania Projektowe
 
-Projekt został zrealizowany w oparciu o pełną specyfikację wymagań przedmiotowych:
-* **Architektura Webowa .NET:** Dwuwarstwowy system z odseparowanym backendem (REST API) oraz nowoczesnym klientem SPA.
-* **Persystencja danych & ORM:** Wykorzystanie **Entity Framework Core** z bazą danych SQLite.
-* **Bezpieczeństwo & Autoryzacja:** Pełny moduł rejestracji i logowania użytkowników zabezpieczony asymetrycznymi tokenami **JWT (JSON Web Tokens)**.
-* **Komunikacja z serwisami sieciowymi:** Integracja z zewnętrznym API NBP via `HttpClient` (serializacja i deserializacja strumieni JSON).
-* **Konteneryzacja (Docker):** Pełne przygotowanie aplikacji do wdrożenia w chmurze przy użyciu **Docker Compose** z separacją środowisk i trwałym wolumenem dla bazy danych.
-* **Testy Automatyczne (NUnit):** Pokrycie kluczowej logiki biznesowej i integralności bazy danych zaawansowanymi testami integracyjnymi z wykorzystaniem wirtualnej bazy danych **In-Memory Database**.
-* **Dokumentacja Techniczna (XML + DocFX):** Generowanie dokumentacji wewnętrznej kodu z tagów XML przy użyciu oficjalnego silnika Microsoftu — **DocFX**.
+Projekt został wykonany zgodnie z pełną specyfikacją wymagań technicznych i funkcjonalnych:
+* **Architektura rozproszona .NET:** Zaimplementowano system dwuwarstwowy z odseparowanym backendem (REST API) oraz niezależnym klientem webowym.
+* **Warstwa persystencji danych:** Wykorzystano technologię Entity Framework Core z relacyjną bazą danych SQLite.
+* **Bezpieczeństwo i autentykacja:** Wdrożono moduł rejestracji i logowania użytkowników zabezpieczony tokenami JWT (JSON Web Tokens).
+* **Integracja z zewnętrznymi serwisami:** Zaimplementowano komunikację z API NBP za pomocą mechanizmu `HttpClient` (obsługa asynchronicznego pobierania, serializacji oraz deserializacji strumieni danych JSON).
+* **Konteneryzacja:** Całość aplikacji przygotowano do uruchomienia w środowisku izolowanym przy użyciu Docker Compose, z zapewnieniem trwałego wolumenu dla bazy danych.
+* **Testy automatyczne:** Kluczowa logika biznesowa oraz integralność bazy danych zostały pokryte testami integracyjnymi z wykorzystaniem wirtualnej bazy danych (In-Memory Database) w środowisku NUnit.
+* **Dokumentacja techniczna:** Wygenerowano dokumentację wewnętrzną kodu na podstawie struktury tagów XML przy użyciu narzędzia DocFX.
 
 ---
 
@@ -25,10 +25,10 @@ Projekt został zrealizowany w oparciu o pełną specyfikację wymagań przedmio
 
 ## 📦 Instrukcja Uruchomienia (Docker Compose)
 
-Aplikacja została w pełni skonteneryzowana. Jedyne wymaganie to uruchomione środowisko *Docker Desktop*.
+W celu uruchomienia kompletnego stosu aplikacyjnego wymagane jest zainstalowane i uruchomione środowisko Docker Desktop.
 
-1. Otwórz terminal w głównym katalogu projektu.
-2. Uruchom cały stos aplikacyjny jedną komendą:
+1. Należy otworzyć terminal w głównym katalogu projektu.
+2. Uruchomienie kontenerów odbywa się za pomocą komendy:
    ```bash
    docker compose up -d --build
 3. Frontend (Aplikacja kliencka): Dostępna pod adresem http://localhost:5173
