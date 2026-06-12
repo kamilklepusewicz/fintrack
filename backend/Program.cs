@@ -7,6 +7,11 @@ using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
+Directory.CreateDirectory("db");
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlite("Data Source=db/fintrack.db"));
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite("Data Source=fintrack.db"));
 
@@ -45,6 +50,9 @@ builder.Services.AddAuthentication(x =>
         ValidateAudience = false
     };
 });
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 builder.Services.AddControllers();
 
@@ -89,6 +97,12 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.UseCors("AllowReact");
+
+if (app.Environment.IsDevelopment() || true)
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseAuthentication();
 app.UseAuthorization();

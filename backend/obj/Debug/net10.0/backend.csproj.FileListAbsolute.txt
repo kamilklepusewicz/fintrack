@@ -155,3 +155,6 @@ C:\Users\Kamil\Desktop\Studia\SEM6\Platformy Programistyczne\projekt\backend\bin
 C:\Users\Kamil\Desktop\Studia\SEM6\Platformy Programistyczne\projekt\backend\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Kamil\Desktop\Studia\SEM6\Platformy Programistyczne\projekt\backend\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Kamil\Desktop\Studia\SEM6\Platformy Programistyczne\projekt\backend\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Kamil\Desktop\Studia\SEM6\Platformy Programistyczne\projekt\backend\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Kamil\Desktop\Studia\SEM6\Platformy Programistyczne\projekt\backend\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Kamil\Desktop\Studia\SEM6\Platformy Programistyczne\projekt\backend\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
