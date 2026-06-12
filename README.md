@@ -33,3 +33,40 @@ W celu uruchomienia kompletnego stosu aplikacyjnego wymagane jest zainstalowane 
    docker compose up -d --build
 3. Frontend (Aplikacja kliencka): Dostępna pod adresem http://localhost:5173
 4. Backend (Serwer API): Dostępny pod adresem http://localhost:5074
+
+## 📄 Udostępniona Dokumentacja
+W projekcie przygotowano dwa niezależne poziomy dokumentacji technicznej:
+
+1. Interaktywna Dokumentacja API (Swagger UI)
+Umożliwia bezpośrednie testowanie punktów końcowych (endpoints) serwera. Dostęp do panelu uzyskuje się pod adresem:
+http://localhost:5074/swagger
+
+2. Strukturalna Dokumentacja Kodu (DocFX)
+Wygenerowana automatycznie z komentarzy kompilatora XML w kodzie źródłowym C#. Dokumentacja została skompilowana do formatu statycznej strony internetowej i jest dostępna bezpośrednio w repozytorium. Można ją przeglądać na dwa sposoby:
+
+Przeglądanie statyczne (Zalecane): Dokumentacja jest w pełni wygenerowana i gotowa do odczytu bez uruchamiania jakichkolwiek usług. Należy przejść do katalogu backend/_site/ i uruchomić plik index.html w dowolnej przeglądarce internetowej.
+
+Uruchomienie serwera lokalnego (Alternatywa): W celu uruchomienia dedykowanego serwera podglądu DocFX, należy w katalogu backend/ wykonać polecenie:
+
+   ```bash
+   docfx docfx.json --serve
+   ```
+Strona dokumentacji będzie wówczas dostępna pod adresem: http://localhost:8080
+
+## 🧪 Uruchamianie Testów Automatycznych
+Testy weryfikują poprawność przeliczania walut oraz operacje zapisu/odczytu w odizolowanym środowisku pamięci RAM. W celu ich wykonania należy przejść do katalogu testowego i wywołać proces mapowania:
+
+   ```bash
+   cd backend.Tests
+   dotnet test
+   ```
+📂 Struktura Katalogów Repozytorium
+📂 backend/ — Kod źródłowy serwera .NET, konfiguracja DocFX, wygenerowana witryna statyczna (_site/) oraz plik definicji Dockerfile.
+
+📂 backend.Tests/ — Projekt testowy NUnit (testy integracyjne warstwy danych).
+
+📂 frontend/ — Kod źródłowy klienta React oraz konfiguracja serwera Nginx w Dockerfile.
+
+📄 docker-compose.yml — Skrypt orkiestracji i parametryzacji kontenerów.
+
+📄 Sprawozdanie_FinTrack.pdf — Akademickie sprawozdanie z realizacji zadania.
