@@ -60,7 +60,7 @@ Testy weryfikują poprawność przeliczania walut oraz operacje zapisu/odczytu w
    cd backend.Tests
    dotnet test
    ```
-📂 Struktura Katalogów Repozytorium
+## 📂 Struktura Katalogów Repozytorium
 
    📂 backend/ — Kod źródłowy serwera .NET, konfiguracja DocFX, wygenerowana witryna statyczna (_site/) oraz plik definicji Dockerfile.
    
