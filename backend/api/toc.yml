@@ -1,0 +1,74 @@
+### YamlMime:TableOfContent
+items:
+- uid: backend.Controllers
+  name: backend.Controllers
+  type: Namespace
+  items:
+  - uid: backend.Controllers.AccountsController
+    name: AccountsController
+    type: Class
+  - uid: backend.Controllers.AuthController
+    name: AuthController
+    type: Class
+  - uid: backend.Controllers.CategoriesController
+    name: CategoriesController
+    type: Class
+  - uid: backend.Controllers.ExchangeRatesController
+    name: ExchangeRatesController
+    type: Class
+  - uid: backend.Controllers.TransactionsController
+    name: TransactionsController
+    type: Class
+  - uid: backend.Controllers.UserDto
+    name: UserDto
+    type: Class
+- uid: backend.Data
+  name: backend.Data
+  type: Namespace
+  items:
+  - uid: backend.Data.AppDbContext
+    name: AppDbContext
+    type: Class
+- uid: backend.Migrations
+  name: backend.Migrations
+  type: Namespace
+  items:
+  - uid: backend.Migrations.InitSchema
+    name: InitSchema
+    type: Class
+- uid: backend.Models
+  name: backend.Models
+  type: Namespace
+  items:
+  - uid: backend.Models.Account
+    name: Account
+    type: Class
+  - uid: backend.Models.Category
+    name: Category
+    type: Class
+  - uid: backend.Models.ExchangeRate
+    name: ExchangeRate
+    type: Class
+  - uid: backend.Models.Transaction
+    name: Transaction
+    type: Class
+  - uid: backend.Models.User
+    name: User
+    type: Class
+- uid: backend.Services
+  name: backend.Services
+  type: Namespace
+  items:
+  - uid: backend.Services.NbpCurrencyResponse
+    name: NbpCurrencyResponse
+    type: Class
+  - uid: backend.Services.NbpRate
+    name: NbpRate
+    type: Class
+  - uid: backend.Services.NbpService
+    name: NbpService
+    type: Class
+  - uid: backend.Services.NbpTableA
+    name: NbpTableA
+    type: Class
+memberLayout: SamePage

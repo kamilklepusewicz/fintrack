@@ -1,0 +1,37 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "backend.csproj"
+          ],
+          "src": "."
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "docs/**.md",
+          "docs/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "template": [
+      "default"
+    ]
+  }
+}

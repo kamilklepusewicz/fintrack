@@ -1,0 +1,378 @@
+{
+  "source_base_path": "C:/Users/Kamil/Desktop/Studia/SEM6/Platformy Programistyczne/projekt/backend",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Controllers.AccountsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Controllers.AccountsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Controllers.AccountsController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Controllers.AuthController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Controllers.AuthController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Controllers.AuthController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Controllers.CategoriesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Controllers.CategoriesController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Controllers.CategoriesController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Controllers.ExchangeRatesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Controllers.ExchangeRatesController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Controllers.ExchangeRatesController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Controllers.TransactionsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Controllers.TransactionsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Controllers.TransactionsController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Controllers.UserDto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Controllers.UserDto.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Controllers.UserDto",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Controllers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Controllers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Data.AppDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Data.AppDbContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Data.AppDbContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Data.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Data",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Migrations.InitSchema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Migrations.InitSchema.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Migrations.InitSchema",
+      "Summary": "<p sourcefile=\"api/backend.Migrations.InitSchema.yml\" sourcestartlinenumber=\"1\">A base class inherited by each EF Core migration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Migrations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Migrations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Models.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Models.Account.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Models.Account",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Models.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Models.Category.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Models.Category",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Models.ExchangeRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Models.ExchangeRate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Models.ExchangeRate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Models.Transaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Models.Transaction.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Models.Transaction",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Models.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Models.User",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Services.NbpCurrencyResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Services.NbpCurrencyResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Services.NbpCurrencyResponse",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Services.NbpRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Services.NbpRate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Services.NbpRate",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Services.NbpService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Services.NbpService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Services.NbpService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Services.NbpTableA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Services.NbpTableA.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Services.NbpTableA",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/backend.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/backend.Services.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "backend.Services",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

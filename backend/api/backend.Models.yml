@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: backend.Models
+  commentId: N:backend.Models
+  id: backend.Models
+  children:
+  - backend.Models.Account
+  - backend.Models.Category
+  - backend.Models.ExchangeRate
+  - backend.Models.Transaction
+  - backend.Models.User
+  langs:
+  - csharp
+  - vb
+  name: backend.Models
+  nameWithType: backend.Models
+  fullName: backend.Models
+  type: Namespace
+  assemblies:
+  - backend
+references:
+- uid: backend.Models.Account
+  commentId: T:backend.Models.Account
+  parent: backend.Models
+  href: backend.Models.Account.html
+  name: Account
+  nameWithType: Account
+  fullName: backend.Models.Account
+- uid: backend.Models.Category
+  commentId: T:backend.Models.Category
+  parent: backend.Models
+  href: backend.Models.Category.html
+  name: Category
+  nameWithType: Category
+  fullName: backend.Models.Category
+- uid: backend.Models.ExchangeRate
+  commentId: T:backend.Models.ExchangeRate
+  href: backend.Models.ExchangeRate.html
+  name: ExchangeRate
+  nameWithType: ExchangeRate
+  fullName: backend.Models.ExchangeRate
+- uid: backend.Models.Transaction
+  commentId: T:backend.Models.Transaction
+  parent: backend.Models
+  href: backend.Models.Transaction.html
+  name: Transaction
+  nameWithType: Transaction
+  fullName: backend.Models.Transaction
+- uid: backend.Models.User
+  commentId: T:backend.Models.User
+  parent: backend.Models
+  href: backend.Models.User.html
+  name: User
+  nameWithType: User
+  fullName: backend.Models.User
+- uid: backend.Models
+  commentId: N:backend.Models
+  href: backend.html
+  name: backend.Models
+  nameWithType: backend.Models
+  fullName: backend.Models
+  spec.csharp:
+  - uid: backend
+    name: backend
+    href: backend.html
+  - name: .
+  - uid: backend.Models
+    name: Models
+    href: backend.Models.html
+  spec.vb:
+  - uid: backend
+    name: backend
+    href: backend.html
+  - name: .
+  - uid: backend.Models
+    name: Models
+    href: backend.Models.html

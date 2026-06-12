@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: backend.Services
+  commentId: N:backend.Services
+  id: backend.Services
+  children:
+  - backend.Services.NbpCurrencyResponse
+  - backend.Services.NbpRate
+  - backend.Services.NbpService
+  - backend.Services.NbpTableA
+  langs:
+  - csharp
+  - vb
+  name: backend.Services
+  nameWithType: backend.Services
+  fullName: backend.Services
+  type: Namespace
+  assemblies:
+  - backend
+references:
+- uid: backend.Services.NbpService
+  commentId: T:backend.Services.NbpService
+  parent: backend.Services
+  href: backend.Services.NbpService.html
+  name: NbpService
+  nameWithType: NbpService
+  fullName: backend.Services.NbpService
+- uid: backend.Services.NbpTableA
+  commentId: T:backend.Services.NbpTableA
+  href: backend.Services.NbpTableA.html
+  name: NbpTableA
+  nameWithType: NbpTableA
+  fullName: backend.Services.NbpTableA
+- uid: backend.Services.NbpRate
+  commentId: T:backend.Services.NbpRate
+  href: backend.Services.NbpRate.html
+  name: NbpRate
+  nameWithType: NbpRate
+  fullName: backend.Services.NbpRate
+- uid: backend.Services.NbpCurrencyResponse
+  commentId: T:backend.Services.NbpCurrencyResponse
+  href: backend.Services.NbpCurrencyResponse.html
+  name: NbpCurrencyResponse
+  nameWithType: NbpCurrencyResponse
+  fullName: backend.Services.NbpCurrencyResponse
+- uid: backend.Services
+  commentId: N:backend.Services
+  href: backend.html
+  name: backend.Services
+  nameWithType: backend.Services
+  fullName: backend.Services
+  spec.csharp:
+  - uid: backend
+    name: backend
+    href: backend.html
+  - name: .
+  - uid: backend.Services
+    name: Services
+    href: backend.Services.html
+  spec.vb:
+  - uid: backend
+    name: backend
+    href: backend.html
+  - name: .
+  - uid: backend.Services
+    name: Services
+    href: backend.Services.html

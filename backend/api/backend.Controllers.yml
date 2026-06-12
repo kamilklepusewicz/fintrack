@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: backend.Controllers
+  commentId: N:backend.Controllers
+  id: backend.Controllers
+  children:
+  - backend.Controllers.AccountsController
+  - backend.Controllers.AuthController
+  - backend.Controllers.CategoriesController
+  - backend.Controllers.ExchangeRatesController
+  - backend.Controllers.TransactionsController
+  - backend.Controllers.UserDto
+  langs:
+  - csharp
+  - vb
+  name: backend.Controllers
+  nameWithType: backend.Controllers
+  fullName: backend.Controllers
+  type: Namespace
+  assemblies:
+  - backend
+references:
+- uid: backend.Controllers.AccountsController
+  commentId: T:backend.Controllers.AccountsController
+  href: backend.Controllers.AccountsController.html
+  name: AccountsController
+  nameWithType: AccountsController
+  fullName: backend.Controllers.AccountsController
+- uid: backend.Controllers.AuthController
+  commentId: T:backend.Controllers.AuthController
+  href: backend.Controllers.AuthController.html
+  name: AuthController
+  nameWithType: AuthController
+  fullName: backend.Controllers.AuthController
+- uid: backend.Controllers.UserDto
+  commentId: T:backend.Controllers.UserDto
+  parent: backend.Controllers
+  href: backend.Controllers.UserDto.html
+  name: UserDto
+  nameWithType: UserDto
+  fullName: backend.Controllers.UserDto
+- uid: backend.Controllers.CategoriesController
+  commentId: T:backend.Controllers.CategoriesController
+  href: backend.Controllers.CategoriesController.html
+  name: CategoriesController
+  nameWithType: CategoriesController
+  fullName: backend.Controllers.CategoriesController
+- uid: backend.Controllers.ExchangeRatesController
+  commentId: T:backend.Controllers.ExchangeRatesController
+  href: backend.Controllers.ExchangeRatesController.html
+  name: ExchangeRatesController
+  nameWithType: ExchangeRatesController
+  fullName: backend.Controllers.ExchangeRatesController
+- uid: backend.Controllers.TransactionsController
+  commentId: T:backend.Controllers.TransactionsController
+  href: backend.Controllers.TransactionsController.html
+  name: TransactionsController
+  nameWithType: TransactionsController
+  fullName: backend.Controllers.TransactionsController
+- uid: backend.Controllers
+  commentId: N:backend.Controllers
+  href: backend.html
+  name: backend.Controllers
+  nameWithType: backend.Controllers
+  fullName: backend.Controllers
+  spec.csharp:
+  - uid: backend
+    name: backend
+    href: backend.html
+  - name: .
+  - uid: backend.Controllers
+    name: Controllers
+    href: backend.Controllers.html
+  spec.vb:
+  - uid: backend
+    name: backend
+    href: backend.html
+  - name: .
+  - uid: backend.Controllers
+    name: Controllers
+    href: backend.Controllers.html

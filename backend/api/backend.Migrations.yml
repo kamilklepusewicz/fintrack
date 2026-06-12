@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: backend.Migrations
+  commentId: N:backend.Migrations
+  id: backend.Migrations
+  children:
+  - backend.Migrations.InitSchema
+  langs:
+  - csharp
+  - vb
+  name: backend.Migrations
+  nameWithType: backend.Migrations
+  fullName: backend.Migrations
+  type: Namespace
+  assemblies:
+  - backend
+references:
+- uid: backend.Migrations.InitSchema
+  commentId: T:backend.Migrations.InitSchema
+  href: backend.Migrations.InitSchema.html
+  name: InitSchema
+  nameWithType: InitSchema
+  fullName: backend.Migrations.InitSchema
