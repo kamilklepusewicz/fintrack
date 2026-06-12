@@ -31,3 +31,5 @@ Aplikacja została w pełni skonteneryzowana. Jedyne wymaganie to uruchomione ś
 2. Uruchom cały stos aplikacyjny jedną komendą:
    ```bash
    docker compose up -d --build
+3. Frontend (Aplikacja kliencka): Dostępna pod adresem http://localhost:5173
+4. Backend (Serwer API): Dostępny pod adresem http://localhost:5074
